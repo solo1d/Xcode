@@ -12,14 +12,14 @@
 
 ![](.gitbook/assets/ping-mu-kuai-zhao-2019061612.59.50.png)
 
-## 静态库位置 
+## 添加动态库和静态库文件
 
 `项目设置 -> TARGETS -> 生成应用名称 -> General -> Linked Frameworks and Libraries`  
-**\( 在这里添加批量添加静态库文件, 点击加号, 在弹出框内 再点击 Add Other... ,选择静态库文件就行 \)**
+**\( 在这里添加批量添加静态库文件, 点击加号, 在弹出框内 再点击 Add Other... ,选择静态库文件和动态库文件就行 \)**
 
 ![](.gitbook/assets/ping-mu-kuai-zhao-2019061613.04.05.png)
 
-## 动态库位置
+## 动/静 态库位置
 
 `项目设置 -> TARGETS -> 生成应用名称 -> Build Settings -> All[Combined] -> Search Paths -> Library Search Path`  
 **\( 在选项内添加 动态库 所在的路径, 已有的内容不要删 \)**
