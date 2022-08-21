@@ -6,7 +6,11 @@
 
 ## 头文件位置: 
 
+
+
     `项目设置 -> PROJECT -> Build Settings -> All[Combined] -> Search Paths -> Header Search Paths 或者 User Header Search Paths` 
+    
+    xcode13.4 还要再开启 Always search user paths选项为 yes；  路径相同
 
 **\(Header Search Paths: 添加\#include  的路径, User Header Search Paths: 添加\#include "x.h" 路径 \)**
 
